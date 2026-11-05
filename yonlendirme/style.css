@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #dfe1e2;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+.container {
+    background-color: #edecec;
+    border: 1px solid #bac3cd;
+    border-radius: 4px; /* Keskin kenar */
+    width: 100%;
+    max-width: 520px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden; /* Alt kısmın köşelere oturması için */
+}
+
+.content-body {
+    padding: 40px 28px 24px 28px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #b91c1c;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.info-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #b91c1c;
+    border-radius: 2px;
+    padding: 16px 18px;
+    text-align: left;
+    font-size: 14px;
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* Klasik site footer görünümü (arkası hafif gri alt bant) */
+.footer-note {
+    background-color: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    padding: 16px 28px;
+    font-size: 13px;
+    color: #64748b;
+    text-align: center;
+}
